@@ -5,6 +5,7 @@ intents:
 - greet
 - goodbye
 - affirm
+- update_from_rasax
 - deny
 - testgit
 - mood_great
