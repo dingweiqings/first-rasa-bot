@@ -7,6 +7,7 @@ intents:
 - affirm
 - update_from_rasax
 - deny
+- gittest
 - testgit
 - mood_great
 - mood_unhappy
