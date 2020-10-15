@@ -6,10 +6,10 @@ pipeline:
   intent_tokenization_flag: false
   intent_split_symbol: _
   token_pattern: None
+- name: RegexFeaturizer
 - name: SpacyFeaturizer
   pooling: mean
 - name: DIETClassifier
-  epochs: 100
 - name: SpacyEntityExtractor
 policies:
 - name: FallbackPolicy
