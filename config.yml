@@ -11,8 +11,6 @@ pipeline:
 - name: DIETClassifier
   epochs: 100
 - name: SpacyEntityExtractor
-  dimensions:
-  - PERSON
 policies:
 - name: FallbackPolicy
   nlu_threshold: 0.75
