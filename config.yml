@@ -12,6 +12,7 @@ pipeline:
 - name: DIETClassifier
 - name: SpacyEntityExtractor
 - name: ResponseSelector
+  retrieval_intent: chitchat
 policies:
 - name: FallbackPolicy
   nlu_threshold: 0.5
