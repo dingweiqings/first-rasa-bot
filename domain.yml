@@ -35,3 +35,4 @@ responses:
   - text: 很高兴能帮到您
 actions:
 - action_default_fallback
+- respond_chitchat

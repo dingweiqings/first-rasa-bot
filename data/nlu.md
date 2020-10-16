@@ -1,19 +1,20 @@
-## intent:greet
+## intent:chitchat/greet
 - 你好
 - 你好啊
 - 初次见面
 - 你好，有什么可以帮您吗
 - 你是谁
 
-## intent:goodbye
+## intent:chitchat/goodbye
 - 再见
 - 我先走了
 - 拜拜
 - 88
 - 白白
 
-## intent:thanks
+## intent:chitchat/thanks
 - 谢谢
+- 谢谢你
 
 ## intent:affirm
 - 是的
@@ -22,7 +23,6 @@
 - 好的
 - 很好
 - 需要帮忙
-- 谢谢你
 - 嗯嗯
 
 ## intent:special_bussiness
