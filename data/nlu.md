@@ -27,6 +27,7 @@
 
 ## intent:special_bussiness
 - 我想订个票
+- 我想打个电话
 
 ## regex:greet_regex
 - ^你好[啊|呀]*$
