@@ -9,6 +9,8 @@ intents:
 - mood_great
 - mood_unhappy
 - bot_challenge
+- thanks
+- special_bussiness
 responses:
   utter_greet:
   - text: 你好，今天天气真好
@@ -23,3 +25,13 @@ responses:
   - text: 好的，再见
   utter_iamabot:
   - text: 我是个狠可爱滴机器人
+  utter_help:
+  - text: 有什么可以帮您？
+  utter_ask_help_else:
+  - text: 还需要帮您做什么吗？
+  utter_fallback:
+  - text: 抱歉，您可以重复一遍吗？
+  utter_you_are_welcome:
+  - text: 很高兴能帮到您
+actions:
+- action_default_fallback

@@ -12,5 +12,21 @@
 - 88
 - 白白
 
+## intent:thanks
+- 谢谢
+
+## intent:affirm
+- 是的
+- 确实
+- 必须的
+- 好的
+- 很好
+
+## intent:special_bussiness
+- 我想订个票
+
 ## regex:greet_regex
-- ^你好[啊|呀]$
+- ^你好[啊|呀]*$
+
+## regex:must_situation
+- \\w+必须\\w+

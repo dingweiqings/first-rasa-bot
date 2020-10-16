@@ -13,7 +13,8 @@ pipeline:
 - name: SpacyEntityExtractor
 policies:
 - name: FallbackPolicy
-  nlu_threshold: 0.75
+  nlu_threshold: 0.5
+  fallback_action_name: action_default_fallback
 - name: AugmentedMemoizationPolicy
 - name: FormPolicy
 - name: MappingPolicy
