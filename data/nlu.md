@@ -21,6 +21,9 @@
 - 必须的
 - 好的
 - 很好
+- 需要帮忙
+- 谢谢你
+- 嗯嗯
 
 ## intent:special_bussiness
 - 我想订个票

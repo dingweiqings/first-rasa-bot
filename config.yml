@@ -11,6 +11,7 @@ pipeline:
   pooling: mean
 - name: DIETClassifier
 - name: SpacyEntityExtractor
+- name: ResponseSelector
 policies:
 - name: FallbackPolicy
   nlu_threshold: 0.5
