@@ -4,7 +4,7 @@ session_config:
 intents:
 - affirm
 - deny
-- chitchat
+- chitchat: {triggers: respond_chitchat}
 - mood_great
 - mood_unhappy
 - bot_challenge
@@ -23,7 +23,7 @@ responses:
   utter_goodbye:
   - text: 好的，再见
   utter_iamabot:
-  - text: 我是个狠可爱滴机器人
+  - text: 我是个很可爱滴机器人
   utter_help:
   - text: 有什么可以帮您？
   utter_ask_help_else:

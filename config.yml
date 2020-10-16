@@ -10,8 +10,10 @@ pipeline:
 - name: SpacyFeaturizer
   pooling: mean
 - name: DIETClassifier
+- name: EmbeddingIntentClassifier
 - name: SpacyEntityExtractor
 - name: ResponseSelector
+  retrieval_intent: chitchat
 policies:
 - name: FallbackPolicy
   nlu_threshold: 0.5

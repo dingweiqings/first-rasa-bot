@@ -1,7 +1,6 @@
 ## greet
 * chitchat/greet
     - 初次见面，请多关照
-
 ## goodbye
 * chitchat/goodbye
     - 好的，下次再见
