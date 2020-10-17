@@ -22,11 +22,19 @@
 - 必须的
 - 好的
 - 很好
-- 需要帮忙
 - 嗯嗯
+- 很对
+- 很棒
+- good
+
+## intent:help
+- 需要帮忙
 
 ## intent:special_bussiness
 - 我想订个票
+
+## intent:chitchat/praise
+- 真好
 
 ## regex:greet_regex
 - ^你好[啊|呀]*$
