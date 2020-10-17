@@ -16,7 +16,7 @@ pipeline:
   retrieval_intent: chitchat
 policies:
 - name: FallbackPolicy
-  nlu_threshold: 0.5
+  nlu_threshold: 0.8
   fallback_action_name: action_default_fallback
 - name: AugmentedMemoizationPolicy
 - name: FormPolicy
