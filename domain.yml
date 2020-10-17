@@ -6,11 +6,14 @@ intents:
 - deny
 - chitchat:
     triggers: respond_chitchat
-- mood_great
+- faq:
+    triggers: respond_faq
+- mod_nly
 - mood_unhappy
 - bot_challenge
 - thanks
 - special_bussiness
+- help
 responses:
   utter_greet:
   - text: 你好，今天天气真好
@@ -28,7 +31,12 @@ responses:
   utter_help:
   - text: 有什么可以帮您？
   utter_ask_help_else:
-  - text: 还需要帮您做什么吗？
+  - buttons:
+    - payload: /affirm
+      title: 需要
+    - payload: /deny
+      title: 不需要
+    text: 还需要帮您做什么吗？
   utter_fallback:
   - text: 抱歉，您可以重复一遍吗？
   utter_you_are_welcome:
@@ -36,3 +44,4 @@ responses:
 actions:
 - action_default_fallback
 - respond_chitchat
+- respond_faq
