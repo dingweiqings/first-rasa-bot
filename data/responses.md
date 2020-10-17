@@ -7,3 +7,6 @@
 ## thanks
 * chitchat/thanks
     - 能帮到你就好   
+## praise
+* chitchat/praise
+    - 哈哈，很感谢     
