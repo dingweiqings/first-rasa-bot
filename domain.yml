@@ -16,7 +16,8 @@ intents:
 - help
 responses:
   utter_greet:
-  - text: 你好，今天天气真好
+  - image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1602913099567&di=ddbb2d03f1d971da32ad0b4ead13e31c&imgtype=0&src=http%3A%2F%2Fa3.att.hudong.com%2F57%2F28%2F01300000921826141405283668131.jpg
+    text: 你好，今天天气真好
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 我给你讲个笑话吧
@@ -25,7 +26,8 @@ responses:
   utter_happy:
   - text: 很好，继续
   utter_goodbye:
-  - text: 好的，再见
+  - image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1602913099567&di=ddbb2d03f1d971da32ad0b4ead13e31c&imgtype=0&src=http%3A%2F%2Fa3.att.hudong.com%2F57%2F28%2F01300000921826141405283668131.jpg
+    text: 好的，再见
   utter_iamabot:
   - text: 我是个很可爱滴机器人
   utter_help:
@@ -38,7 +40,8 @@ responses:
       title: 不需要
     text: 还需要帮您做什么吗？
   utter_fallback:
-  - text: 抱歉，您可以重复一遍吗？
+  - image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1602913099567&di=ddbb2d03f1d971da32ad0b4ead13e31c&imgtype=0&src=http%3A%2F%2Fa3.att.hudong.com%2F57%2F28%2F01300000921826141405283668131.jpg
+    text: 抱歉，您可以重复一遍吗111？
   utter_you_are_welcome:
   - text: 很高兴能帮到您
 actions:

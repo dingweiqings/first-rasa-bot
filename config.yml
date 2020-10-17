@@ -10,7 +10,6 @@ pipeline:
 - name: SpacyFeaturizer
   pooling: mean
 - name: DIETClassifier
-- name: EmbeddingIntentClassifier
 - name: SpacyEntityExtractor
 - name: ResponseSelector
   retrieval_intent: chitchat
