@@ -38,7 +38,7 @@
 ## intent:chitchat/praise
 - 真好
 
-## intent:faq/ask_wether
+## intent:faq/ask_weather
 - 今天天气怎么样
 - 我想知道今天天气
 - 我今天需要带伞吗
