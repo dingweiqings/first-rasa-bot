@@ -17,6 +17,7 @@
 - 很棒
 - good
 - 对对
+- 对对对
 
 ## intent:chitchat/goodbye
 - 我先走了
