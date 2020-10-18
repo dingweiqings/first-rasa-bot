@@ -19,8 +19,7 @@ responses:
   - image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1602913099567&di=ddbb2d03f1d971da32ad0b4ead13e31c&imgtype=0&src=http%3A%2F%2Fa3.att.hudong.com%2F57%2F28%2F01300000921826141405283668131.jpg
     text: 你好，今天天气真好
   utter_cheer_up:
-  - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 我给你讲个笑话吧
+  - text: 我给你讲个笑话吧
   utter_did_that_help:
   - text: 您的问题解决了吗？
   utter_happy:
