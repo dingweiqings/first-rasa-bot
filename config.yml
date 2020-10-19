@@ -13,6 +13,8 @@ pipeline:
 - name: EntitySynonymMapper
 - name: ResponseSelector
   retrieval_intent: chitchat
+- name: ResponseSelector
+  retrieval_intent: faq
 policies:
 - name: FallbackPolicy
   nlu_threshold: 0.5
