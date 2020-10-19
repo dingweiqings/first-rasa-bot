@@ -10,14 +10,13 @@ pipeline:
 - name: SpacyFeaturizer
   pooling: mean
 - name: DIETClassifier
-- name: SpacyEntityExtractor
+- name: EntitySynonymMapper
 - name: ResponseSelector
   retrieval_intent: chitchat
 policies:
 - name: FallbackPolicy
-  nlu_threshold: 0.8
+  nlu_threshold: 0.5
   fallback_action_name: action_default_fallback
-- name: AugmentedMemoizationPolicy
 - name: FormPolicy
 - name: MappingPolicy
 - name: TEDPolicy

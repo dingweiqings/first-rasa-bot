@@ -14,6 +14,10 @@ intents:
 - thanks
 - special_bussiness
 - help
+entities:
+- DATE
+- TIME
+- LOCATION
 responses:
   utter_greet:
   - image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1602913099567&di=ddbb2d03f1d971da32ad0b4ead13e31c&imgtype=0&src=http%3A%2F%2Fa3.att.hudong.com%2F57%2F28%2F01300000921826141405283668131.jpg
