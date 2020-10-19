@@ -38,24 +38,21 @@
 ## intent:chitchat/praise
 - 真好
 
-## intent:faq/ask_weather
+## intent:ask_weather
 - 今天天气怎么样
 - 我想知道今天天气
 - 我今天需要带伞吗
-
-## intent:ask_weather
 - 今天天气
 
 ## intent:faq/ask_now
 - [现在](TIME)几点了
+
+## intent:ask_now
 - [现在](TIME)到5点半了吗
 - 还有几分钟到10点
 - [现在](TIME)什么时间了
 - 现在几点？
 - 几点了？
-- 什么时间？
-
-## intent:ask_now
 - 几点了
 - 什么时间了
 
