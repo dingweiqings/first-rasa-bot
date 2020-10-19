@@ -42,6 +42,8 @@
 - 今天天气怎么样
 - 我想知道今天天气
 - 我今天需要带伞吗
+
+## intent:ask_weather
 - 今天天气
 
 ## intent:faq/ask_now
@@ -51,9 +53,11 @@
 - [现在](TIME)什么时间了
 - 现在几点？
 - 几点了？
+- 什么时间？
+
+## intent:ask_now
 - 几点了
 - 什么时间了
-- 什么时间？
 
 ## regex:greet_regex
 - ^你好[啊|呀]*$
