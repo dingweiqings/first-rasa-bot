@@ -13,7 +13,7 @@
 
 ## faq ask weather
 * faq/ask_weather
-    - 今天天气是多云，温度20度
+    - 今天天气是晴
 ## faq ask now
 * faq/ask_now
     - 现在是10点
