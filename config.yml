@@ -17,7 +17,7 @@ pipeline:
   retrieval_intent: faq
 policies:
 - name: FallbackPolicy
-  nlu_threshold: 0.5
+  nlu_threshold: 0.2
   core_threshold: 0.2
   fallback_action_name: action_default_fallback
 - name: FormPolicy

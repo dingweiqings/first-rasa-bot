@@ -24,17 +24,6 @@ class ActionDefaultFallback(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message(text="抱歉,您可以再重复一遍吗？")
         return [UserUtteranceReverted()]
-class ActionShowNow(Action):
-
-    def name(self) -> Text:
-        return "action_show_now"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        time=datetime.datetime.now().strptime("%Y-%m-%d %H:%M:%S")
-        dispatcher.utter_message(text="现在是"+time)
-        return [UserUtteranceReverted()]
 class ActionAskWather(Action):
 
     def name(self) -> Text:
