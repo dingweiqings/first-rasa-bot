@@ -9,13 +9,5 @@
     - 能帮到你就好   
 ## praise
 * chitchat/praise
-    - 哈哈，很感谢     
-
-## faq ask weather
-* faq/ask_weather
-    - 今天天气是晴
-## faq ask now
-* faq/ask_now
-    - 现在是10点
-    
+    - 哈哈，很感谢         
     

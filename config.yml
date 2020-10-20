@@ -9,6 +9,8 @@ pipeline:
 - name: RegexFeaturizer
 - name: SpacyFeaturizer
   pooling: mean
+# for entity extractor
+- name: SpacyEntityExtractor
 - name: DIETClassifier
 - name: EntitySynonymMapper
 - name: ResponseSelector
@@ -19,6 +21,7 @@ policies:
 - name: FallbackPolicy
   nlu_threshold: 0.2
   core_threshold: 0.2
+  ambiguity_threshold: 0.05
   fallback_action_name: action_default_fallback
 - name: FormPolicy
 - name: MappingPolicy
