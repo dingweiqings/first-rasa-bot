@@ -2,6 +2,7 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- inform
 - affirm
 - deny
 - chitchat:
@@ -12,10 +13,10 @@ intents:
 - thanks
 - special_bussiness
 - help
-- ask_weather:
-    triggers: action_ask_weather
+- ask_weather
 - ask_now:
     triggers: action_show_now
+- out_of_scope
 entities:
 - DATE
 - TIME
@@ -24,6 +25,11 @@ slots:
   DATE:
     type: text
     initial_value: 昨天
+  LOCATION:
+    type: unfeaturized
+  CONFIRM_ASK:
+    type: unfeaturized
+
 responses:
   utter_greet:
   - image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1602913099567&di=ddbb2d03f1d971da32ad0b4ead13e31c&imgtype=0&src=http%3A%2F%2Fa3.att.hudong.com%2F57%2F28%2F01300000921826141405283668131.jpg
@@ -59,3 +65,5 @@ actions:
 - respond_faq
 - action_show_now
 - action_ask_weather
+forms:
+  - weather_form

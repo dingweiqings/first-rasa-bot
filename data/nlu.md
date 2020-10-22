@@ -18,7 +18,11 @@
 - good
 - 对对
 - 对对对
-
+## intent:deny
+- 不需要
+- 不
+- 不用
+- 不用，谢谢
 ## intent:chitchat/goodbye
 - 我先走了
 - 拜拜
@@ -29,6 +33,14 @@
 - 谢谢
 - 谢谢你
 
+## intent:inform
+- 大概 [8 小时](TIME)
+
+## intent:out_of_scope
+- 这些我做不了
+- 等等
+- 我帮不了你
+- 对不起这些我不会
 ## intent:help
 - 需要帮忙
 
