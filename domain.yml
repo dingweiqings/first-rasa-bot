@@ -21,6 +21,7 @@ entities:
 - DATE
 - TIME
 - LOCATION
+- CONFIRM_ASK
 slots:
   DATE:
     type: text
@@ -59,6 +60,19 @@ responses:
     text: 抱歉，您可以重复一遍吗111？
   utter_you_are_welcome:
   - text: 很高兴能帮到您
+  utter_ask_LOCATION:
+    - text: 你是想问哪里的天气？
+  utter_ask_DATE:
+  - text: 你是想问明天还是后天的天气？
+  utter_ask_CONFIRM_ASK:
+  - text: "你是确定要问天气吗？"
+    buttons:
+      - title: "是的"
+        payload: '/affirm{"CONFIRM_ASK": "True"}'
+      - title: "不需要"
+        payload: '/deny{"CONFIRM_ASK": "False"}'
+  utter_slots_values:
+    - text: "你是想问:{LOCATION}的{DATE}天气吗？"
 actions:
 - action_default_fallback
 - respond_chitchat

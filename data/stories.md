@@ -5,42 +5,39 @@
 * help    
    - utter_help
 ## ask weather happy path
-* greet
-    - utter_greet
-* affirm
-    - health_form
-    - form{"name": "health_form"}
+* chitchat
+    - respond_chitchat
+* ask_weather
+    - weather_form
+    - form{"name": "weather_form"}
     - form{"name": null}
-    - utter_slots_values
-* thankyou
-    - utter_no_worries
-    - utter_goodbye   
+* chitchat
+    - respond_chitchat
 ## no ask weather
-* greet
-    - utter_greet
+* chitchat
+    - respond_chitchat
 * deny
     - utter_goodbye    
-## ask weather stop
-* greet
-    - utter_greet
-* affirm
-    - health_form
-    - form{"name": "health_form"}
+## ask weather unhappy path stop
+* chitchat
+    - respond_chitchat
+* ask_weather
+    - weather_form
+    - form{"name": "weather_form"}
 * out_of_scope
-    - utter_ask_continue
+    - utter_cheer_up
 * deny
     - action_deactivate_form
     - form{"name": null}
     - utter_goodbye    
-## ask weather continue
-* greet
-    - utter_greet
-* affirm
-    - health_form
-    - form{"name": "health_form"}
+## ask weather unhappy path continue
+* chitchat
+    - respond_chitchat
+* ask_weather
+    - weather_form
+    - form{"name": "weather_form"}
 * out_of_scope
-    - utter_ask_continue
+    - utter_cheer_up
 * affirm
-    - health_form
+    - weather_form
     - form{"name": null}
-    - utter_slots_values    

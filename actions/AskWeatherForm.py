@@ -13,14 +13,12 @@ class ActionAskWeather(FormAction):
 
     @staticmethod
     def required_slots(tracker: "Tracker") -> List[Text]:
-        if tracker.get_slot('CONFIRM_ASK') == True:
-            return ["LOCATION"]
-        else:
-            return ["DATE","LOCATION"]
+            return ["DATE","LOCATION","CONFIRM_ASK"]
 
     async def submit(self, dispatcher: "CollectingDispatcher", tracker: "Tracker", domain: Dict[Text, Any]) -> List[
         EventType]:
-            dispatcher.utter_message("谢谢，明天是xxx")
+            dispatcher.utter_message(template="utter_slots_values")
+            dispatcher.utter_message(text="明天天气是xxx")
             return []
     def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
         """A dictionary to map required slots to
@@ -36,7 +34,8 @@ class ActionAskWeather(FormAction):
                 self.from_intent(intent="inform", value=True),
             ],
             "LOCATION": [
-                self.from_entity(entity="LOCATION"),
+                #with all intent set slot
+                self.from_entity(entity="GPE"),
                 self.from_intent(intent="deny", value="None"),
             ],
             "DATE": [

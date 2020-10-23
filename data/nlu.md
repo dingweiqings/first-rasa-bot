@@ -6,7 +6,6 @@
 - 你是谁
 
 ## intent:affirm
-- 再见
 - 是的
 - 确实
 - 必须的
@@ -28,7 +27,10 @@
 - 拜拜
 - 88
 - 白白
-
+## intent:inform
+- [苏州](LOCATION)
+- 我想知道[今天](DATE)[苏州](LOCATION)的天气
+- [今天](DATE)天气是晴
 ## intent:chitchat/thanks
 - 谢谢
 - 谢谢你
